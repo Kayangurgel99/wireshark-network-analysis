@@ -28,7 +28,7 @@ This project demonstrates hands-on experience with network troubleshooting, pack
 * Initialized live packet sniffing on interface `eth0` via Wireshark.
 * Initiated an unencrypted FTP session (`ftp 192.168.56.102`) from the command terminal.
 * Authenticated using standard user credentials (`msfadmin`).
-![FTP Cleartext Credentials](image_d11dc6.png)
+![FTP Cleartext Credentials](Screenshot%202026-08-28%20205325.png)
 ### 3. Packet Inspection & Credential Recovery
 * Applied display filter `ftp` to isolate File Transfer Protocol traffic.
 * Performed **Follow TCP Stream** to inspect full-duplex session communication.
