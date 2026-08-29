@@ -35,7 +35,7 @@ This project demonstrates hands-on experience with network troubleshooting, pack
 * Launched Wireshark 4.6.0 on Kali Linux.
 * Selected network interface `eth0` to monitor live host-to-target packet transmission.
 
-![Wireshark Start Screen](Screenshot%202026-08-28%20204924.jpg)
+![Wireshark Start Screen](Screenshot%202026-08-28%20204924.png)
 
 ---
 
@@ -43,7 +43,7 @@ This project demonstrates hands-on experience with network troubleshooting, pack
 * Opened Kali Linux terminal and initiated an interactive FTP session to the target host (`ftp 192.168.56.102`).
 * Verified initial service banner response (`220 vsFTPd 2.3.4`).
 
-![FTP Connection Attempt](Screenshot%202026-08-28%20205049.jpg)
+![FTP Connection Attempt](Screenshot%202026-08-28%20205049.png)
 
 ---
 
@@ -51,7 +51,7 @@ This project demonstrates hands-on experience with network troubleshooting, pack
 * Attempted initial login with non-existent account credentials (`labtest1`) to test error handling and logging responses.
 * Received expected server rejection error (`530 Login incorrect.`).
 
-![FTP Failed Authentication](Screenshot%202026-08-28%20205132.jpg)
+![FTP Failed Authentication](Screenshot%202026-08-28%20205132.png)
 
 ---
 
@@ -59,7 +59,7 @@ This project demonstrates hands-on experience with network troubleshooting, pack
 * Re-initiated FTP session and supplied valid target credentials (`USER msfadmin` / `PASS msfadmin`).
 * Observed successful logon confirmation message from the vsFTPd daemon.
 
-![FTP Successful Login](Screenshot%202026-08-28%20205325.jpg)
+![FTP Successful Login](Screenshot%202026-08-28%20205325.png)
 
 ---
 
@@ -67,14 +67,14 @@ This project demonstrates hands-on experience with network troubleshooting, pack
 * Maintained active packet capture while commands were executed across the open control channel.
 * Recorded un-filtered ambient broadcast and protocol activity on interface `eth0`.
 
-![Unfiltered Traffic Log](Screenshot%202026-08-28%20205402.jpg)
+![Unfiltered Traffic Log](Screenshot%202026-08-28%20205402.png)
 
 ---
 
 ### 7. Layer 2 Ethernet Frame Inspection
 * Analyzed raw packet details in Wireshark, expanding Ethernet II headers to inspect MAC addresses and address resolution flags.
 
-![Frame Header Analysis](Screenshot%202026-08-28%20205651.jpg)
+![Frame Header Analysis](Screenshot%202026-08-28%20205651.png)
 
 ---
 
@@ -82,7 +82,7 @@ This project demonstrates hands-on experience with network troubleshooting, pack
 * Completed full FTP workflow including command execution (`SYST`, `FEAT`) and graceful session termination (`QUIT`).
 * Received server acknowledgment (`221 Goodbye.`).
 
-![Terminal Session Summary](Screenshot%202026-08-28%20205812.jpg)
+![Terminal Session Summary](Screenshot%202026-08-28%20205812.png)
 
 ---
 
@@ -90,7 +90,7 @@ This project demonstrates hands-on experience with network troubleshooting, pack
 * Applied Wireshark display filter `ftp` to isolate control channel traffic from background ambient noise.
 * Filtered packet list cleanly organized sequential requests (`USER`, `PASS`, `QUIT`) and server response codes (`331`, `230`, `221`).
 
-![Filtered FTP Traffic View](Screenshot%202026-08-28%20210202.jpg)
+![Filtered FTP Traffic View](Screenshot%202026-08-28%20210202.png)
 
 ---
 
